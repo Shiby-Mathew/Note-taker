@@ -5,8 +5,12 @@ body {
   padding: 0;
 }
 
-.save-note {
+/* .save-note {
   display: none;
+} */
+
+.save-note {
+  display: inline;
 }
 
 .icons i {
