@@ -7,21 +7,18 @@ const {
 const { v4: uuidv4 } = require("uuid");
 
 //GET route for retriving all the notes
-//notes.get();
+
 notes.get("/", (req, res) => {
   readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
 });
 
 // POST Route for adding new notes
-//notes.post();
 
 notes.post("/", (req, res) => {
   console.log(req.body);
 
   const { title, text } = req.body;
-  // if(req.body){
-
-  if (title && text) {
+  if (req.body) {
     const newNote = {
       title,
       text,
@@ -31,11 +28,9 @@ notes.post("/", (req, res) => {
     res.json(`Note added successfully`);
   } else {
     res.status(403).json("Invalid entry");
-    // res.error("Error in adding note");
   }
 });
 // DELETE Route for a specific notes passing id
-//notes.delete();
 
 notes.delete("/:note_id", (req, res) => {
   const noteID = req.params.note_id;
@@ -47,7 +42,6 @@ notes.delete("/:note_id", (req, res) => {
 
       // Save that array to the filesystem
       writeToFile("./db/db.json", result);
-
 
       // Respond to the DELETE request
       res.json(`Item ${noteID} has been deleted 🗑️`);
