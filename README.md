@@ -52,11 +52,11 @@ Json
 
 The following images show the web application's appearance and functionality:
 
-![Landing Page](./1.png)
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text](./1.png)
-![](./1.png)
+![Landing Page](./images/image1.png)
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text](./images/image2.png)
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](.png)
+![Note titled “Balance accounts” reads, “Balance accounty,” with other notes listed on the left.](./images/image3.png)
+![Note listed in the left-hand side appears in the right-hand side column ](./images/image4.png)
 
 ## Usage
 
