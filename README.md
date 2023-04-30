@@ -8,7 +8,7 @@ https://shiby-note-taker-app.herokuapp.com/
 ## Description
 
 ```
-This application called Note Taker that can be used to write and save notes. This application used Express.js as a back-end and save, retrieve note data from a JSON file and deployed the entire application on Heroku.
+This application called Note Taker that can be used to write and save notes. This application uses Express.js as a back-end, save and retrieve note data from a JSON file.It is deployed on Heroku.
 ```
 
 ## User Story
@@ -60,13 +60,19 @@ The following images show the web application's appearance and functionality:
 
 ## Usage
 
-```
+ -  This app can be used to write and save notes.
+ -  Provide empty fields to capture the new note’s title and text.
+ -  All saved notes are displayed on the left-hand side.
+ -  Once user has entered note's title and text,save button appears.
+ -  User can delete any of the saved notes by clicking delete icon.
+ -  Clicking on the title displays note on the right-hand side.
+ -  Clicking on the write icon in the navigation at the top of the page, provides empty fields to enter new note's title and text.
+ 
 
-```
 
 ### Resources
 
 ```
-Course Materials- Mini Project
+Course Material- Mini Project
 
 ```

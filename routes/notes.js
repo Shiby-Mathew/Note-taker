@@ -15,8 +15,6 @@ notes.get("/", (req, res) => {
 // POST Route for adding new notes
 
 notes.post("/", (req, res) => {
-  console.log(req.body);
-
   const { title, text } = req.body;
   if (req.body) {
     const newNote = {
