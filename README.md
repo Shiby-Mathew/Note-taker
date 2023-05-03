@@ -8,7 +8,7 @@
 ```
 This application called Note Taker that can be used to write and save notes. 
 This application uses Express.js as a back-end, save and retrieve note data from a JSON file.
-It is deployed on Heroku.
+It is deployed to Heroku.
 ```
 
 ## User Story
